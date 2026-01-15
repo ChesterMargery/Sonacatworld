@@ -31,7 +31,7 @@ export class Renderer {
     console.log('GPU 设备已获取:', this.device);
 
     // 配置 Canvas 上下文
-    this.context = canvas.getContext('webgpu');
+    this.context = canvas.getContext('webgpu') as GPUCanvasContext | null;
     if (!this.context) {
       throw new Error('无法获取 WebGPU 上下文');
     }

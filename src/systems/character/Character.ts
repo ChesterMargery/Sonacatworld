@@ -172,7 +172,7 @@ export class Character {
    * 生成唯一 ID
    */
   private generateId(): string {
-    return `char_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    return `char_${Date.now()}_${Math.random().toString(36).slice(2, 11)}`;
   }
 
   /**
