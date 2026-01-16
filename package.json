@@ -1,1 +1,37 @@
-{"name": "sonacatworld", "version": "0.1.0", "description": "LLM + WebGPU Multi-Agent Social Simulation", "type": "module", "main": "dist/main.js", "scripts": {"dev": "vite", "build": "tsc && vite build", "preview": "vite preview", "lint": "eslint src --ext ts,tsx", "format": "prettier --write \"src/**/*.{ts,tsx,json}\""}, "keywords": ["LLM", "WebGPU", "AI", "Multi-Agent", "Simulation"], "author": "ChesterMargery", "license": "MIT", "dependencies": {"@webgpu/types": "^0.1.40"}, "devDependencies": {"@types/node": "^20.10.0", "@typescript-eslint/eslint-plugin": "^6.13.0", "@typescript-eslint/parser": "^6.13.0", "eslint": "^8.54.0", "prettier": "^3.1.0", "typescript": "^5.3.0", "vite": "^5.0.0"}}
+{
+  "name": "sonacatworld",
+  "version": "0.1.0",
+  "description": "AI Town - LLM + WebGPU Multi-Agent Social Simulation",
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "eslint src --ext ts,tsx",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json}\""
+  },
+  "keywords": [
+    "LLM",
+    "WebGPU",
+    "AI",
+    "Multi-Agent",
+    "Simulation"
+  ],
+  "author": "ChesterMargery",
+  "license": "MIT",
+  "dependencies": {
+    "@webgpu/types": "^0.1.40"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
